@@ -1,0 +1,117 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\obj\\Debug\\net7.0-windows7.0\\scopedcss\\bundle\\DispatchGame.styles.css",
+      "PackagePath": "staticwebassets\\DispatchGame.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\jakeh\\RiderProjects\\DispatchGame\\DispatchGame\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows7.0\\staticwebassets\\msbuild.DispatchGame.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows7.0\\staticwebassets\\msbuild.build.DispatchGame.props",
+      "PackagePath": "build\\DispatchGame.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows7.0\\staticwebassets\\msbuild.buildMultiTargeting.DispatchGame.props",
+      "PackagePath": "buildMultiTargeting\\DispatchGame.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows7.0\\staticwebassets\\msbuild.buildTransitive.DispatchGame.props",
+      "PackagePath": "buildTransitive\\DispatchGame.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

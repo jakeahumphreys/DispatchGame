@@ -1,0 +1,91 @@
+﻿@page "/"
+@using DR.BlazorLeaflet.Models
+@inject IJSRuntime JsRuntime
+
+ <MudGrid>
+        <MudItem xs="12">
+            <MudPaper Class="d-flex align-center justify-center mud-width-full py-8">
+               
+            </MudPaper>
+        </MudItem>
+        <MudItem xs="12" sm="8">
+            <MudPaper Class="d-flex align-center justify-center mud-width-full py-8">
+                <div class="flex-grow-1 p-2">
+                    <LeafletMap Map="_map" Height="60vh"/>
+                </div>
+            </MudPaper>
+        </MudItem>
+        <MudItem xs="12" sm="4">
+            <MudPaper Class="d-flex align-center justify-center mud-width-full py-8">xs=12 sm=6</MudPaper>
+        </MudItem>
+        <MudItem xs="6" sm="4">
+            <MudCard>
+                <MudCardHeader Class="card-header-gradient">
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h6">Stations</MudText>
+                    </CardHeaderContent>
+                    <CardHeaderActions>
+                        <MudButton Variant="Variant.Filled" Color="Color.Default">Add Building</MudButton>
+                        <MudButton Variant="Variant.Filled" Color="Color.Default">Set a new POI</MudButton>
+                    </CardHeaderActions>
+                </MudCardHeader>
+                <MudCardContent>
+                  
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="6" sm="4">
+             <MudCard>
+                <MudCardHeader Class="card-header-gradient">
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h6">Log</MudText>
+                    </CardHeaderContent>
+                    <CardHeaderActions>
+                    </CardHeaderActions>
+                </MudCardHeader>
+                <MudCardContent>
+                  
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="6" sm="4">
+            <MudCard>
+               <MudCardHeader Class="card-header-gradient">
+                   <CardHeaderContent>
+                       <MudText Typo="Typo.h6">Radio</MudText>
+                   </CardHeaderContent>
+                   <CardHeaderActions>
+                       <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                   </CardHeaderActions>
+               </MudCardHeader>
+               <MudCardContent>
+                 
+               </MudCardContent>
+           </MudCard>
+        </MudItem>
+ </MudGrid>
+
+@code
+{
+    private Map _map;
+    
+    private LatLng _startAt = new LatLng(47.5574007f, 16.3918687f);
+    
+    protected override void OnInitialized()
+    {
+        _map = new Map(JsRuntime)
+        {
+            Center = _startAt,
+            Zoom = 4.8f
+        };
+
+        _map.OnInitialized += () =>
+        {
+            _map.AddLayer(new TileLayer
+            {
+                UrlTemplate = "https://c.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                Attribution = "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors",
+            });
+        };
+    }
+}

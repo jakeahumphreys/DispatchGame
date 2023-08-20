@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0-windows7.0</TargetFramework>
+        <OutputType>WinExe</OutputType>
+        <UseWPF>true</UseWPF>
+
+        <!-- Project Options -->
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>DispatchGame</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DR.BlazorLeaflet" Version="7.0.1" />
+        <PackageReference Include="FisSst.BlazorMaps" Version="1.0.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="7.0.*" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+        <PackageReference Include="MudBlazor" Version="6.9.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Update="wwwroot\css\app.css">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\css\bootstrap\bootstrap.min.css">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\index.html">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Shared\Components\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\leafletjs\images\layers-2x.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\leafletjs\images\layers.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\leafletjs\images\marker-icon-2x.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\leafletjs\images\marker-icon.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\leafletjs\images\marker-shadow.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\leafletjs\leaflet-src.esm.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\leafletjs\leaflet-src.esm.js.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\leafletjs\leaflet-src.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\leafletjs\leaflet-src.js.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\leafletjs\leaflet.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\leafletjs\leaflet.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\leafletjs\leaflet.js.map" />
+    </ItemGroup>
+
+</Project>
